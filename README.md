@@ -1,2 +1,2 @@
-# Java
+# object programing
 Meikai Java
