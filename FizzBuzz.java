@@ -11,7 +11,7 @@ public class FizzBuzz {
 		System.out.println(input);
 		
 		for(i=1;i<=input;i++){
-			if(i%3 ==0 && i%5== 0){
+			if(i%3 == 0 && i%5 == 0){
 				System.out.println(i + " : FizzBuzz");
 			}else if(i%3 == 0){
 				System.out.println(i + " : Fizz");
@@ -20,7 +20,7 @@ public class FizzBuzz {
 			}
 		}
 		
-		// TODO Ž©“®¶¬‚³‚ê‚½ƒƒ\ƒbƒhEƒXƒ^ƒu
+		// TODO è‡ªå‹•ç”Ÿæˆã•ã‚ŒãŸãƒ¡ã‚½ãƒƒãƒ‰ãƒ»ã‚¹ã‚¿ãƒ–
 
 	}
 
