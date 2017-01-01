@@ -1,8 +1,8 @@
-package sample;
+package algorizm;
 
 public class HowAreYou {
 	public static void main(String[] args){
-		System.out.print("konnnitiha!" + "qwert\n");
-		System.out.print("gennkidesuka?");
+		System.out.print("Ç±ÇÒÇ…ÇøÇÕÅI" + "Ç«Ç§Ç‡\n");
+		System.out.print("å≥ãCÇ≈Ç∑Ç©ÅH");
 	}
 }
