@@ -1,39 +1,15 @@
 import java.lang.Math;
 import java.util.Scanner;
 
-class Triangle {
-	private double b = 1.0;
-	private double h = 1.0;	//‰Šú’l‚Í‚Æ‚à‚É1.0
-	
-	Triangle(){}
-	//method‚ÌƒI[ƒo[ƒ‰ƒCƒh
-	Triangle(double b, double h){
-		this.b = b;
-		this.h = h;
-	}
-	//ƒAƒNƒZƒbƒT‚Ìì¬
-	double getBase()	{ return b; }
-	double getHeight()	{ return h; }
-	
-	void setBase(double b)	{ this.b = b; }
-	void setHeight(double h)	{ this.h= h; }
-	
-	double calcArea(){
-		double base = b;
-		double height = h;
-		return (base * height / 2);
-	}
-}
-
 public class TriangleTester{
 	public static void main(String[] args){
 		Scanner stdIn = new Scanner(System.in);
 		
-		System.out.print("’ê•Ó‚ğ“ü—Í‚¹‚æF"); 	double b = stdIn.nextDouble();
-		System.out.print("‚‚³‚ğ“ü—Í‚¹‚æF"); 	double h = stdIn.nextDouble();
+		System.out.print("åº•è¾ºã‚’å…¥åŠ›ã›ã‚ˆï¼š"); 	double b = stdIn.nextDouble();
+		System.out.print("é«˜ã•ã‚’å…¥åŠ›ã›ã‚ˆï¼š"); 	double h = stdIn.nextDouble();
 		
 		Triangle tmp = new Triangle(b,h);
 		
-		System.out.println("–ÊÏ = " + tmp.calcArea());
+		System.out.println("é¢ç© = " + tmp.calcArea());
 	}
 }
